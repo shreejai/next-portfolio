@@ -1,3 +1,4 @@
+import MagicButton from './ui/MagicButton'
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
 
@@ -32,6 +33,12 @@ const Hero = () => {
         <p className='text-center md:tracking-wider text-sm md:text-lg lg:text-2xl'>
           Hi, I&apos;m Shreejai, a Next.js Developer based in Sydney, Australia.
         </p>
+
+        <a href='#about'>
+          <MagicButton
+            title="Show my work"
+          />
+        </a>
       </div>
     </div>
     </>
